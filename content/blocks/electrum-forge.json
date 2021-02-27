@@ -29,7 +29,7 @@
 		{ "item": "thorium", "amount": 10 }
 	],
 	"category": "crafting",
-	"research": "laserDrill",
+	"research": "coreShard",
 	"idleSound": "respawning",
 	"idleSoundVolume": 0.5
 }
