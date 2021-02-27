@@ -1,0 +1,35 @@
+{
+	"type": "GenericSmelter",
+	"name": "Thorium Super-Extracter",
+	"description": "Produces large amounts of thorium by combining sand and scrap. Needs water for cooling.",
+	"outputItem": {"item": "thorium", "amount": 10},
+	"liquidCapacity": 50.0,
+	"size": 2,
+	"hasPower": true,
+	"hasItems": true,
+	"hasLiquids": true,
+	"craftTime": 60,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 1,
+		"items": {
+			"items": [
+				{ "item": "sand", "amount": 5 },
+				{ "item": "scrap", "amount": 5}
+			]
+		},
+		"liquid": {
+			"liquid": "water",
+			"amount": 3.0
+		}
+	},
+	"requirements": [
+		{ "item": "lead", "amount": 50 },
+		{ "item": "silicon", "amount": 60 },
+		{ "item": "thorium", "amount": 10 }
+	],
+	"category": "crafting",
+	"research": "laserDrill",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}
